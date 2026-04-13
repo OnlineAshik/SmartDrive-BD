@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Drive BD</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Header */
+header {
+    background: #111;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+/* Section */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Services */
+.services div {
+    margin: 10px;
+}
+
+/* Products */
+.products img {
+    width: 150px;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Mobile */
+@media (max-width:600px) {
+    .hero {
+        padding: 50px 10px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Smart Drive BD</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Your Trusted Automotive Partner</h2>
+    <p>Car Service | Parts | Training</p>
+</div>
+
+<div class="section services">
+    <h2>Our Services</h2>
+    <div>Car Repair</div>
+    <div>Diagnostics</div>
+    <div>Spare Parts</div>
+    <div>Driving Training</div>
+</div>
+
+<div class="section products">
+    <h2>Products</h2>
+    <img src="https://via.placeholder.com/150">
+    <p>Brake Pad - ৳1500</p>
+</div>
+
+<div class="section">
+    <h2>Contact Us</h2>
+    <p>📞 01XXXXXXXXX</p>
+    <p>📍 Dhaka, Bangladesh</p>
+</div>
+
+<footer>
+    <p>© 2026 Smart Drive BD</p>
+</footer>
+
+</body>
+</html>
